@@ -1,0 +1,71 @@
+*{
+    font-family: 'Akshar', sans-serif;
+    /*margin: 0%;*/
+}
+
+header{
+    text-align: center;
+}
+
+.app {
+    width: 100%;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check input {
+    margin-right: 10px;
+}
+
+.check p {
+    font-size: 19px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.entradas{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-plano{
+    margin: 10px;
+}
+
+.texto-encriptado {
+    margin: 10px;
+}
+
+.salida {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-final textarea{
+    min-width: 600px;
+}
+
+P {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    max-width: 600px;
+    font-size: 19px;
+}
+
+input {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
