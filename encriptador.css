@@ -2,8 +2,14 @@
     font-family: 'Akshar', sans-serif;
 }
 
+<<<<<<< HEAD
 body{
     margin: 0px;
+=======
+html, body {
+    height:100%;
+    margin: 0%;
+>>>>>>> c3706689783b95f477341b27eacd5ed265893193
 }
 
 header{
@@ -12,6 +18,7 @@ header{
 
 .app {
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .check {
@@ -64,11 +71,4 @@ textarea {
 
 input {
     display: block;
-}
-
-footer {
-    background-color: #333;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
 }
