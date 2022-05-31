@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="./encriptador.css" >
+    <link rel="stylesheet" href="./encriptador.css" />
     <!-- IMPORTACIONES DE FUENTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Oswald:wght@300;400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar&family=Oswald:wght@300;400;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- FIN DE IMPORTACIONES DE FUENTES -->
 
     <!-- SCRIPT -->
     <script src="./encriptar.js" async></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <h1>ENCRIPTADOR CON EL METODO DE CIFRADO HILL</h1>
-        <H2>Por: Eduardo Rivera Geffroy y Julio Cesar Martinez Rosas</H2>
+      <h1>ENCRIPTADOR CON EL METODO DE CIFRADO HILL</h1>
+      <h2>Por: Eduardo Rivera Geffroy y Julio Cesar Martinez Rosas</h2>
     </header>
 
     <div class="app">
+      <div class="check">
+        <input type="checkbox" id="mapearNumeros" checked="" />
+        <p>Mapear numeros a caracteres</p>
+      </div>
 
-        <div class="check">
-            <input type="checkbox" id="mapearNumeros" checked="">
-            <p> Mapear numeros a caracteres </p>
+      <div class="entradas">
+        <div class="texto-plano">
+          <p>Escriba aqui el mensaje que desea cifrar:</p>
+          <textarea id="textoPlano" rows="6" style="width: 100%"></textarea>
+          <input
+            type="submit"
+            id="encriptar"
+            value="&nbsp;&nbsp;&nbsp;Cifrar&nbsp;&nbsp;&nbsp;"
+          />
         </div>
 
-        <div class="entradas">
-            <div class="texto-plano">
-                <p>Escriba aqui el mensaje que desea cifrar: </p>
-                <textarea id="textoPlano" rows="6" style="width:100%;"></textarea>
-                <input type="submit" id="encriptar" value="&nbsp;&nbsp;&nbsp;Cifrar&nbsp;&nbsp;&nbsp;">
-            </div>
-
-            <div class="texto-encriptado">
-                <p>Escriba aqui el texto que desea descrifrar: </p>
-                <textarea id="textoCodificado" rows="6" style="width:100%;" required=""></textarea>
-                <input type="submit" id="desencriptar" value="Descrifrar">
-            </div>
+        <div class="texto-encriptado">
+          <p>Escriba aqui el texto que desea descrifrar:</p>
+          <textarea
+            id="textoCodificado"
+            rows="6"
+            style="width: 100%"
+            required=""
+          ></textarea>
+          <input type="submit" id="desencriptar" value="Descrifrar" />
         </div>
+      </div>
 
-        <div class="salida">
-            <div class="texto-final">
-                <p>Texto descrifrado:</p>
-                <textarea readonly id="textoDecodificado" rows="6" style="width:100%;" required=""></textarea>
-            </div>
+      <div class="salida">
+        <div class="texto-final">
+          <p>Texto descrifrado:</p>
+          <textarea
+            readonly
+            id="textoDecodificado"
+            rows="6"
+            style="width: 100%"
+            required=""
+          ></textarea>
         </div>
-        
+      </div>
     </div>
 
     <footer>
-        <p>xd</p>
+      <p>xd</p>
     </footer>
-
-</body>
-
+  </body>
 </html>

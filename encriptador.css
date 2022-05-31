@@ -1,6 +1,9 @@
 *{
     font-family: 'Akshar', sans-serif;
-    /*margin: 0%;*/
+}
+
+body{
+    margin: 0px;
 }
 
 header{
